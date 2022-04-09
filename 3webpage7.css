@@ -1,0 +1,70 @@
+
+
+
+.webpage{
+    
+    height: 1500px;
+    width: 1500px;
+    background-image: linear-gradient(to bottom right, rgb(17, 17, 126), rgb(98, 98, 165));
+    
+}
+
+.parentgrid{
+    width: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 600px 400px;
+}
+
+.box{
+    color: white;
+}
+
+.card1{
+    height: 200px;
+    width: 400px;
+    color: black;
+    transform: rotate(20deg);
+    /* position: relative;  */
+    margin: 50px;
+    z-index: 1000; 
+    /* float: right;  */
+    background: linear-gradient(yellow 50%, black 50%);
+    top: -100px;
+    left: 60px;
+    position: sticky;
+    
+}
+
+.card2{
+    height: 200px;
+    width: 400px;
+    color: black;
+    transform: rotate(-25deg);
+    margin: 50px;
+     /* z-index: 1000;  */
+   /* float: right; */
+    background: linear-gradient(white 70%, gray 30%);
+    position: relative; 
+    top: -100px; 
+    left: 60px; 
+    
+}
+
+.test{
+    height: 200px;
+    width: 400px;
+    color: red;
+    transform: scaleX(2, 0.5);
+    transform: scaleY(2, 0.10);
+    transform: skew(10deg);
+    transform: skew(30deg);
+    transform: matrix(1, 2, 3, 3, 2, 1 );
+    margin: left;
+    z-index: 1000;
+    position: relative;
+
+}
+
+
+

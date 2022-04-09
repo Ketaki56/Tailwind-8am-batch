@@ -1,0 +1,52 @@
+body{
+    color: blueviolet;
+}
+
+ Table, th, td{
+     border: 2px solid red;
+     border-radius: 10%;
+     border-bottom: 2px solid green;
+     border-collapse: collapse; 
+     /*border-top: 3px dotted peru;
+     border-color: aqua;
+     border-left: 1px solid yellow;
+     border-width: 4px;
+     border-right: 2px dashed violet;
+     border-style: groove;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 2px;
+     border-bottom-right-radius: 6px; */
+     /* border-collapse: collapse; */
+     border-top-color: blue;
+     border-bottom-color: palevioletred;
+     border-spacing: 3%;
+     border-left-color: chartreuse;
+     border-right-color: gold;
+     border-bottom-style:dashed dotted red;
+    border-image: url();
+    /* border-spacing: 150px; */
+    /* padding: 20px 5px 15px 2px; */
+    text-decoration: double;
+    text-shadow: 10px;
+    text-indent: 15px;
+    text-overflow: ellipsis;
+    box-shadow: 5px 5px; 
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: dotted;
+    text-decoration-line: overline;
+    text-decoration-thickness: 5px;
+    text-emphasis-color: green;
+   
+ }
+    .Image{
+        opacity: 0.5;
+    }
+
+    
+
+
+    
+
+ 

@@ -1,0 +1,11 @@
+body{
+    color: blue;
+}
+table, th, td{
+    border: 2px solid red;
+    border-radius: 30%;
+    border-collapse: collapse;
+    border-bottom: 2px solid black;
+    background-color: aqua;
+    
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+}
+
+a:link{
+    color: darkmagenta;
+}
+
+a:visited{
+    color: darkkhaki;
+}
+
+/*mouse over link */
+a:hover{
+    color: blue;
+    
+}
+
+/* select link */
+a:active{
+color: yellow;
+}
+
+h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p:first-child{
+    color: orangered;
+}
+
+p::first-letter{
+    color: aqua;
+}
+
+img::before{
+    content: "hello";
+}

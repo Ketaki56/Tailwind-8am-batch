@@ -1,0 +1,71 @@
+
+@media screen and (min-width:500px) {
+    body{
+        background-color: yellow;
+    }
+    
+}
+.mediacolor{
+    height: 120px;
+    width: 150px;
+    border: 2px solid black;
+}
+    @media screen and (min-width:200px) and (max-width:300px) {
+        .mediacolor{
+            background-color:red;
+            
+        }
+        
+    }
+
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        position: relative;
+        animation-name: Example;
+        animation-duration: 5s;
+       /* animation-delay: 2s;
+        animation-iteration-count: 2;
+        animation-direction: alternate-reverse; */
+
+    }
+    /*@keyframes Example {
+        from{background-color:blue;top:0px}
+        to{background-color: yellow; top: 200px;}
+        
+    }  */
+
+   /* @keyframes Example {
+     0%  {background-color: red; left:0px; top: 0px;}
+     25% {background-color: yellow; left: 0px; top: 200px;}
+     50% {background-color: blue; left: 200px; top: 200px;}
+     75% {background-color: green; left: 200px; top: 0px;}
+     100% {background-color: violet; left: 0px; top: 0px;}
+
+} */
+
+/*scale */
+@keyframes Example{
+    0% {transform: scale(1);}
+    20% {transform: scale(2);}
+    40% {transform:scale(0.5);}
+    60%{transform: scale(0);}
+    80% {transform: scale(-1);}
+    100% {transform: scale(1);}
+
+
+}
+
+/* skew */
+@keyframes Example{
+    0% {transform: skew(0deg);}
+    20% {transform: skew(10deg);}
+    40% {transform: skew(45deg);}
+    60% {transform: skew(90deg);}
+    80% {transform: skew(120deg);}
+    100% {transform: skew(0deg);}
+}
+
+
+

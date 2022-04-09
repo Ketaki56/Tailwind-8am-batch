@@ -1,0 +1,54 @@
+
+ul{
+    list-style-type:none;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: right;
+    border-right: none;
+}
+li a{
+    display: block;
+    color: black;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+.parent{
+    display: flex;
+}
+
+.box1{
+    height: 200px;
+    width: 150px;
+background-color: lightblue;
+
+     
+}
+.box2{
+    height: 200px;
+    width: 150px;
+background-color: lightblue;
+
+}
+.image_container{
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+.circle{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    right: 50px;
+    top: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+    
+

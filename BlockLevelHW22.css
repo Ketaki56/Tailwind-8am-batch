@@ -1,0 +1,20 @@
+body{
+    color: aqua;
+}
+table, th, td{
+    border: 2px solid greenyellow;
+    border-collapse: collapse;
+}
+
+@media  screen and (min-width:420px) and (max-width:720px) {
+    body{
+        background-color: blueviolet;
+    }
+    
+}
+
+@media screen and (min-width:0px) and (max-width:120px) {
+    body{
+        background-color: olivedrab;
+    }
+}

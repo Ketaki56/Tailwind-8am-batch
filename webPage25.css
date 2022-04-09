@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: right;
+    border-right: none ;
+
+}
+li a{
+   display: block; 
+   color: black;
+   padding: 30px 35px;
+   text-decoration: none;
+}
+.icon-bar{
+    width: 100%;
+    overflow: auto;
+}
+.icon-bar a{
+    float:right;
+    margin: 1px;
+    text-align: center;
+    width: 1%;
+    padding: 30px 10px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    
+}
+.icon-bar a:hover{
+    background-color: #000;
+}
+.active{
+    background-color: white;
+}

@@ -1,0 +1,127 @@
+.Image{
+    background-image: url('../HTML/Nature.png');
+    height: 700px;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+.row1{
+    display: grid;
+    grid-template-columns: 500px 700px 500px;
+    color: white;
+
+}
+
+.c1 a{
+    font-size: 20px;
+    color: white;
+    word-spacing: 4px;
+    padding: 6px;
+
+}
+.row2{
+    font-size: 50px;
+    color: white;
+    float: left;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+
+
+.c2{
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-left: 700px;
+    margin-top: 50px;
+    border: 1px solid black;
+
+}
+
+ /* .page2{  */
+     height: 1000px; 
+     width: 900px; 
+ /* }  */
+
+ 
+
+.video{
+    /* display: grid; */
+    /* grid-template-columns: 500px 500px; */
+     height: 100px; 
+     width: 200px; 
+    float: left;
+    margin-left: 600px;
+    margin-top: 50px;
+    position: relative;
+
+
+}
+
+.page3{
+    height: 600px;
+    width: 1000px;
+    background: linear-gradient(to right bottom, darkgreen 20%, lightgreen 50% );
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+    color: white;
+    text-align: center;
+    
+}
+.page3 h1 {
+    padding-top: 30px;
+    
+}
+
+.page3 h3{
+    padding: -10px;
+}
+
+.parent{
+    
+    /* margin-left: 60px */
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+
+.card1{
+    margin-left: 30px;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    color: black; 
+    }
+
+    .card1 img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .page4{
+        height: 600px;
+        width: 1000px;
+        color: darkolivegreen;
+        text-align: center;
+    }
+
+    .c1{
+        margin-left: 30px;
+        background-color: lightgray;
+        height: 300px;
+        width: 200px;
+        padding: 20px 20px 20px 20px;
+        color: black;
+        
+        
+    }
+
+    .c1 img{
+        height: 100px;
+        width: 100px;
+        clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+    }
+
+
+
+

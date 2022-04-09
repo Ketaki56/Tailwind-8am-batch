@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+}
+
+/* .animation{
+    height: 200px;
+    width: 400px;
+    color: palegreen;
+    border: 2px solid gold;
+    transform: scaleX(2, 0.5);
+    transform: scaleY(2, 0.15);
+} 
+
+.hello{
+    height: 200px;
+    width: 400px;
+    color: aqua;
+    border: 2px solid olive;
+    transform: skewX();
+}
+.animation2{
+    height: 200px;
+    width: 400px;
+    color: palevioletred;
+    position: relative;
+    transform: rotateX(100deg);
+    transform: rotateY(150deg);
+    transform: rotateZ(190deg);
+    border: 2px solid rebeccapurple;
+}
+
+.new{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 20%;
+    border: 5px solid black;
+} */
+
+.parent{
+     display: flex; 
+     /* flex-wrap: wrap;  */
+     flex-shrink: 5;
+}
+.c1, .c2, .c3{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+}
